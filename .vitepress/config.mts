@@ -59,8 +59,17 @@ export default defineConfig({
       { text: 'Contribute', link: '/contributing' }
     ],
 
-    sidebar: {
-    },
+    sidebar: [
+      {
+        text: 'Getting Started',
+        items: [
+          {
+            text: 'Installing YACL',
+            link: '/getting-started/installing'
+          }
+        ]
+      }
+    ],
 
     footer: {
       message: 'Not affiliated with Mojang Studios or the Fabric Project.',

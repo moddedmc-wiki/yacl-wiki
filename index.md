@@ -11,33 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Getting Started
-      link: /getting-started/
+      link: /getting-started/installing
     - theme: alt
       text: Contribute
       link: /contributing
-
-# features:
-#   - title: Items
-#     details: "Discover how to register a simple item and how to texture, model and name it."
-#     link: /items/
-#   - title: Blocks
-#     details: "Learn how to register a simple block and block item, texture and model it."
-#     link: /blocks/
-#   - title: Data Generation
-#     details: "Find out how you can setup your project to utilize Fabric API's data generation helpers."
-#     link: /data-generation/
-#   - title: Events
-#     details: "Learn how to use Fabric API's event system."
-#     link: /events/
-#   - title: Rendering
-#     details: Learn the basics of rendering in Minecraft, both 3D and 2D.
-#     link: /rendering/
-#   - title: Sounds
-#     details: Learn how to utilize Minecraft's sound systems to add and play your own sounds.
-#     link: /sounds/
-#   - title: Miscellaneous Topics
-#     details: "Learn about other topics such as codecs, text and more."
-#     link: /misc-topics/
 ---
 
 <style scoped>
@@ -141,7 +118,7 @@ const members = memberData.map((data) => {
 <div class="vp-doc container">
 
 ::: info
-These pages have been tested and verified to work with Minecraft `1.20.4` and YACL `3.3.0`, if you encounter any issues, please report them on the [Discord](https://discord.gg/5tmestARuU) or [GitHub](https://github.com/moddedmc-wiki/yacl-wiki).
+These pages have been tested and verified to work with Minecraft `1.20.4` (NeoForge+Fabric) and YACL `3.3.0`, if you encounter any issues, please report them on the [Discord](https://discord.gg/5tmestARuU) or [GitHub](https://github.com/moddedmc-wiki/yacl-wiki).
 :::
 
 <br />
