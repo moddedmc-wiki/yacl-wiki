@@ -30,6 +30,26 @@ All fields with the `@SerialEntry` annotation will be serialized and deserialize
 
 Anything without the `@SerialEntry` annotation will be ignored.
 
+## Field Comments
+
+::: info
+To enable comments using the GSON serializer, you must use the `setJson5(true)` method on the `GsonConfigSerializerBuilder` when building your serializer.
+:::
+
+If you're using a serializer that supports comments, you can add comments to your fields using the `comment` field of the `@SerialEntry` annotation.
+
+```java
+public class MyModConfig {
+  // ...
+
+  @SerialEntry(comment = "This is a comment!")
+  public String myString = "Hello, World!";
+
+  // ...
+}
+```
+```
+
 ## Supported Field Types
 
 The types of fields that are supported soley depend on the serializer you're using.

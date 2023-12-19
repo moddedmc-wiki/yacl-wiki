@@ -21,9 +21,10 @@ public class MyModConfig {
                 .id(new Identifier("<MOD ID HERE>", "config"))
 
                 // You can use various serializes, for the sake of brevity we will use GSON (JSON).
-                .serializer(config -> GsonConfigSerializerBuilder
-                  .create(config)
-                  .setPath(CONFIG_PATH))
+                .serializer(config -> GsonConfigSerializerBuilder.create(config)
+                    .setPath(CONFIG_PATH)
+                    //.setJson5(true) // Uncomment this line to use JSON5 instead of JSON.
+                    )
                 .build();
 }
 ```
