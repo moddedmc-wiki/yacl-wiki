@@ -34,6 +34,9 @@ export default defineConfig({
     ])
   },
 
+  markdown: {
+    lineNumbers: true
+  },
   sitemap: {
     hostname: 'https://yacl.moddedmc.wiki/'
   },
@@ -66,6 +69,14 @@ export default defineConfig({
           {
             text: 'Installing YACL',
             link: '/getting-started/installing'
+          },
+          {
+            text: 'Creating a Configuration Class',
+            link: '/getting-started/creating'
+          },
+          {
+            text: 'Adding Fields',
+            link: '/getting-started/adding-fields'
           }
         ]
       }

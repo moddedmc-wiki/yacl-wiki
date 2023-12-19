@@ -23,8 +23,7 @@ public class MyModConfig {
                 // You can use various serializes, for the sake of brevity we will use GSON (JSON).
                 .serializer(config -> GsonConfigSerializerBuilder
                   .create(config)
-                  .setPath(CONFIG_PATH)
-                  .appendGsonBuilder(GsonBuilder::setPrettyPrinting))
+                  .setPath(CONFIG_PATH))
                 .build();
 }
 ```
