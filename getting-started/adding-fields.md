@@ -48,7 +48,6 @@ public class MyModConfig {
   // ...
 }
 ```
-```
 
 ## Supported Field Types
 
