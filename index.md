@@ -51,7 +51,7 @@ const memberData = [{
   discord: "https://discord.imb11.dev/"
 }, {
   name: "isXander",
-  website: "isxander.dev",
+  website: "https://isxander.dev",
   discord: "https://short.isxander.dev/discord/"
 }]
 
