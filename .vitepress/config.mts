@@ -77,6 +77,19 @@ export default defineConfig({
           {
             text: 'Adding Fields',
             link: '/getting-started/adding-fields'
+          },
+          {
+            text: "Generating a Config Screen",
+            link: '/getting-started/generating-screen'
+          }
+        ]
+      },
+      {
+        text: 'Migration Guides',
+        items: [
+          {
+            text: 'Migrating to YACL 3.2+',
+            link: '/migration/to-3.2.md'
           }
         ]
       }

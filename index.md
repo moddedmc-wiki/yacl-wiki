@@ -10,7 +10,7 @@ hero:
   tagline: "A builder-based configuration library for Minecraft."
   actions:
     - theme: brand
-      text: Getting Started
+      text: Get Started
       link: /getting-started/installing
     - theme: alt
       text: Contribute
