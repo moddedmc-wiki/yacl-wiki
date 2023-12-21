@@ -10,11 +10,18 @@ hero:
   tagline: "A builder-based configuration library for Minecraft."
   actions:
     - theme: brand
-      text: Get Started
+      text: Getting Started
       link: /getting-started/installing
     - theme: alt
       text: Contribute
       link: /contributing
+features:
+  - title: Setup YACL
+    details: "Learn how to setup YACL in your mod, and how to create a configuration screen using either the automatic system or the manual method."
+    link: /getting-started/installing
+  - title: Automatic Screen Generation
+    details: "Discover YACL's powerful auto-generation system, which allows you to create a configuration screen with annotations."
+    link: /autogen/setup
 ---
 
 <style scoped>
