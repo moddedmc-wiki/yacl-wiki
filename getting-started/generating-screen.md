@@ -41,5 +41,5 @@ Manual generation uses builders to generate the screen, this means that you can 
 
 To get started, you should go to the corresponding pages, depending on which method you want to use.
 
-- [Automatic Generation](./autogen/setup)
+- [Automatic Generation](/autogen/setup)
 - ~~Manual Generation~~ - Coming Soon...
