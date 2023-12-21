@@ -150,6 +150,58 @@ export default defineConfig({
               {
                 text: '@FloatSlider',
                 link: '/autogen/annotations/floatslider'
+              },
+              {
+                text: '@FormatTranslation',
+                link: '/autogen/annotations/formattranslation'
+              },
+              {
+                text: '@IntField',
+                link: '/autogen/annotations/intfield'
+              },
+              {
+                text: '@IntSlider',
+                link: '/autogen/annotations/intslider'
+              },
+              {
+                text: '@ItemField',
+                link: '/autogen/annotations/itemfield'
+              },
+              {
+                text: '@Label',
+                link: '/autogen/annotations/label'
+              },
+              {
+                text: '@LongField',
+                link: '/autogen/annotations/longfield'
+              },
+              {
+                text: '@LongSlider',
+                link: '/autogen/annotations/longslider'
+              },
+              {
+                text: '@MasterTickBox',
+                link: '/autogen/annotations/mastertickbox'
+              },
+              {
+                text: '@StringField',
+                link: '/autogen/annotations/stringfield'
+              },
+              {
+                text: '@TickBox',
+                link: '/autogen/annotations/tickbox'
+              },
+              {
+                text: '@OptionAccess',
+                link: 'https://github.com/isXander/YetAnotherConfigLib/blob/1.20.x/dev/common/src/main/java/dev/isxander/yacl3/config/v2/api/autogen/OptionAccess.java'
+              },
+              {
+                text: '@OptionFactory',
+                link: 'https://github.com/isXander/YetAnotherConfigLib/blob/1.20.x/dev/common/src/main/java/dev/isxander/yacl3/config/v2/api/autogen/OptionAccess.java'
+              },
+              {
+                text: '@ListGroup',
+                link: 'https://github.com/isXander/YetAnotherConfigLib/blob/1.20.x/dev/common/src/main/java/dev/isxander/yacl3/config/v2/api/autogen/ListGroup.java'
               }
             ]
           }

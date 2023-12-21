@@ -13,7 +13,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 ![float slider example](./_assets/floatslider.png)
 
-The `@FloatSlider` annotation is an option factory that creates a regular option with a `FloatSliderControllerBuilder` controller.
+The `@FloatSlider` annotation creates an option with a `FloatSliderControllerBuilder` controller.
 
 ## Usage
 

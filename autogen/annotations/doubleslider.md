@@ -13,7 +13,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 ![double slider example](./_assets/doubleslider.png)
 
-The `@DoubleSlider` annotation is an option factory that creates a regular option with a `DoubleSliderControllerBuilder` controller.
+The `@DoubleSlider` annotation creates an option with a `DoubleSliderControllerBuilder` controller.
 
 ## Usage
 

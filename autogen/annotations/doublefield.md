@@ -11,7 +11,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 <ViewGithub url="https://github.com/isXander/YetAnotherConfigLib/blob/1.20.x/dev/common/src/main/java/dev/isxander/yacl3/config/v2/api/autogen/DoubleField.java" />
 
-The `@DoubleField` annotation is an option factory that creates a regular option with a `DoubleFieldControllerBuilder` controller.
+The `@DoubleField` annotation creates an option with a `DoubleFieldControllerBuilder` controller.
 
 ## Usage
 

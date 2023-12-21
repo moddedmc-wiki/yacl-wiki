@@ -13,7 +13,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 ![boolean option](./_assets/boolean.png)
 
-The `@Boolean` annotation is an option factory that creates a regular option with a `BooleanControllerBuilder` controller.
+The `@Boolean` annotation creates an option with a `BooleanControllerBuilder` controller.
 
 ## Usage
 

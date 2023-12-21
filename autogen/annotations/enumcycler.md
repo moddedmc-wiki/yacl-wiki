@@ -11,7 +11,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 <ViewGithub url="https://github.com/isXander/YetAnotherConfigLib/blob/1.20.x/dev/common/src/main/java/dev/isxander/yacl3/config/v2/api/autogen/EnumCycler.java" />
 
-The `@EnumCycler` annotation is an option factory that creates a regular option with a `CyclingListControllerBuilder` controller. If the enum implements `CyclableEnum`, the allowed values will be used from that, rather than every single enum constant in the class. If not, `EnumCycler.allowedOrdinals()` is used.
+The `@EnumCycler` annotation creates an option with a `CyclingListControllerBuilder` controller. If the enum implements `CyclableEnum`, the allowed values will be used from that, rather than every single enum constant in the class. If not, `EnumCycler.allowedOrdinals()` is used.
 
 There are two methods of formatting for enum values. First, if the enum implements `NameableEnum`, `NameableEnum.getDisplayName()` is used. Otherwise, the translation key `yacl3.config.enum.{ENUM_CLASS_NAME}.{ENUM_NAME}` where `{ENUM_CLASS_NAME}` is the exact name of the class and `{NAME}` is equal to the lower case of `Enum#name()`.
 

@@ -13,7 +13,7 @@ import ViewGithub from '../../components/ViewGithub.vue'
 
 ![color field preview](./_assets/colorfield.png)
 
-The `@ColorField` annotation is an option factory that creates a regular option with a `ColorControllerBuilder` controller.
+The `@ColorField` annotation creates an option with a `ColorControllerBuilder` controller.
 
 ## Usage
 
