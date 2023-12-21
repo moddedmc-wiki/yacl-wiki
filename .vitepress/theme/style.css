@@ -238,3 +238,7 @@ div[class*="language-"],
     transform: none;
   }
 }
+
+.VPHero.VPHomeHero {
+  padding-bottom: 0 !important;
+}
