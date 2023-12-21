@@ -126,6 +126,30 @@ export default defineConfig({
               {
                 text: '@CustomImage',
                 link: '/autogen/annotations/customimage'
+              },
+              {
+                text: '@CustomName',
+                link: '/autogen/annotations/customname'
+              },
+              {
+                text: '@DoubleField',
+                link: '/autogen/annotations/doublefield'
+              },
+              {
+                text: '@DoubleSlider',
+                link: '/autogen/annotations/doubleslider'
+              },
+              {
+                text: '@EnumCycler',
+                link: '/autogen/annotations/enumcycler'
+              },
+              {
+                text: '@FloatField',
+                link: '/autogen/annotations/floatfield'
+              },
+              {
+                text: '@FloatSlider',
+                link: '/autogen/annotations/floatslider'
               }
             ]
           }
