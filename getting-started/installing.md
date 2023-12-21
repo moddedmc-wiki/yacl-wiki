@@ -8,7 +8,7 @@ description: Learn how to add YACL to your NeoForge or Fabric project.
 The recommended version of YACL is `3.0.0+`.
 
 ::: warning
-If you're already using YACL versions that are pre-3.0.0, refer to the [migration guide](/migrating/to-v3) for information on how to migrate.
+If you're already using YACL versions that are pre-3.0.0, refer to the [migration guide](/migrating/to-3.2) for information on how to migrate.
 :::
 
 ## Adding YACL as a dependency
