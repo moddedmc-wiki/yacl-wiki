@@ -86,7 +86,11 @@ export default defineConfig({
       },
       {
         text: 'Manual Screen Generation',
-        items: []
+        items: [
+          {
+            text: 'Coming Soon...'
+          }
+        ]
       },
       {
         text: 'Automatic Screen Generation',
