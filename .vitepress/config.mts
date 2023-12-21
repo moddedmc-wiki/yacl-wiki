@@ -19,7 +19,7 @@ export default defineConfig({
       {
         name: 'og:title',
         content:
-          pageData.frontmatter.layout === 'home'
+          pageData.frontmatter.layout === 'home' || pageData.title === 'YACL Wiki'
             ? `YACL Wiki`
             : `${pageData.title} | YACL Wiki`
       }
