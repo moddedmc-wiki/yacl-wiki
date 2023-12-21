@@ -85,6 +85,49 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Manual Screen Generation',
+        items: []
+      },
+      {
+        text: 'Automatic Screen Generation',
+        items: [
+          {
+            text: 'Autogen Setup',
+            link: '/autogen/setup'
+          },
+          {
+            text: 'Annotations',
+            collapsed: false,
+            items: [
+              {
+                text: '@AutoGen',
+                link: '/autogen/annotations/autogen'
+              },
+              {
+                text: '@Boolean',
+                link: '/autogen/annotations/boolean'
+              },
+              {
+                text: '@ColorField',
+                link: '/autogen/annotations/colorfield'
+              },
+              {
+                text: '@CustomDescription',
+                link: '/autogen/annotations/customdescription'
+              },
+              {
+                text: '@CustomFormat',
+                link: '/autogen/annotations/customformat'
+              },
+              {
+                text: '@CustomImage',
+                link: '/autogen/annotations/customimage'
+              }
+            ]
+          }
+        ],
+      },
+      {
         text: 'Migration Guides',
         items: [
           {
