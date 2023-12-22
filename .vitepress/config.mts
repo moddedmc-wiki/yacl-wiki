@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "YACL Wiki",
   description: "A builder-based configuration library for Minecraft.",
-
+  lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#d8b14a' }],
@@ -37,6 +37,7 @@ export default defineConfig({
   markdown: {
     lineNumbers: true
   },
+
   sitemap: {
     hostname: 'https://yacl.moddedmc.wiki/'
   },
@@ -58,7 +59,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started/' },
+      { text: 'Getting Started', link: '/getting-started/installing' },
       { text: 'Contribute', link: '/contributing' }
     ],
 
@@ -223,8 +224,13 @@ export default defineConfig({
       copyright: 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 2023 © Calum H. (IMB11)'
     },
 
+    editLink: {
+      pattern: 'https://github.com/moddedmc-wiki/yacl-wiki/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/moddedmc-wiki/yacl-wiki' },
+      { icon: 'github', link: 'https://github.com/isXander/YetAnotherConfigLib' },
       { icon: 'discord', link: 'https://discord.gg/5tmestARuU' }
     ]
   }
