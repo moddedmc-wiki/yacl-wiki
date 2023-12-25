@@ -24,7 +24,7 @@ public class MyModConfig {
                 .serializer(config -> GsonConfigSerializerBuilder.create(config)
                     .setPath(CONFIG_PATH)
                     //.setJson5(true) // Uncomment this line to use JSON5 instead of JSON.
-                    )
+                    .build())
                 .build();
 }
 ```
